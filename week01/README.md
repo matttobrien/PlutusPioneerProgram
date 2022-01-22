@@ -1,0 +1,1 @@
+The first week was an introduction to the concepts that are needed to build on top of Plutus. The homework for the first week was to to set up a local Plutus development environment and become familair with it.
