@@ -1,4 +1,4 @@
-# PlutusPioneerProgram
+# Plutus Pioneer Program
 
 My homework done over the course of the Plutus Pioneer Program Cohort 3. It is a program to recruit and train developers in Plutus for the Cardano ecosystem with the goal of learning the core principles of how to code in both Haskell and Plutus.
 
