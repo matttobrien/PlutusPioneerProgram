@@ -1,6 +1,6 @@
 # PlutusPioneerProgram
 
-My homework done for the Plutus Pioneer Program Cohort 3. It is a program to recruit and train developers in Plutus for the Cardano ecosystem with the goal of learning the core principles of how to code in both Haskell and Plutus.
+My homework done over the course of the Plutus Pioneer Program Cohort 3. It is a program to recruit and train developers in Plutus for the Cardano ecosystem with the goal of learning the core principles of how to code in both Haskell and Plutus.
 
 ## To set up the environment
 I followed this guide by renzwo: https://github.com/renzwo/cardano-plutus-apps-install-m1
