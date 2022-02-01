@@ -38,7 +38,8 @@ import           Text.Printf          (printf)
 {-# INLINABLE mkValidator #-}
 -- PaymentPubKeyHash is the parameter, POSIXTime is the datum
 mkValidator :: PaymentPubKeyHash -> POSIXTime -> () -> ScriptContext -> Bool
-mkValidator pkh time () ctx = traceIfFalse "Invalid input" (unPaymentPubKeyHash pkh `elem` signatures) && (from time `contains` validRange)
+mkValidator pkh time () ctx = traceIfFalse "beneficiary's signature missing" (unPaymentPubKeyHash pkh `elem` signatures) && 
+                              traceIfFalse "deadline not reached" (from time `contains` validRange)
     where
         -- TxInfo is the pending transaction
         info :: TxInfo
