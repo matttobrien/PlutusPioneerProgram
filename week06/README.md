@@ -1,0 +1,2 @@
+## Overview
+The focus for this week was the minting of native assests using the cardano-cli. Unfortuently for me, I cannot run the cardano CLI on my current machine (base 2017 macbook pro). So, I just did my best to follow along with the lectures.
